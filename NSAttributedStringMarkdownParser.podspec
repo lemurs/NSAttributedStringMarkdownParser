@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/lemurs/NSAttributedStringMarkdownParser.git", :branch => "master" }
   s.ios.deployment_target = '7.0'
   s.source_files = 'src/*'
-  s.dependency   'fmemopen', :git => 'https://github.com/lemurs/fmemopen.git'
+  s.dependency   'fmemopen', :git => 'https://github.com/lemurs/fmemopen.git', :branch => "master"
   s.requires_arc = true
 end
