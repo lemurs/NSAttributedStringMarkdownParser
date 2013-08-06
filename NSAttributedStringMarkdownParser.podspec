@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "NSAttributedStringMarkdownParser.podspec"
+  s.name         = "NSAttributedStringMarkdownParser"
   s.version      = "1.0.0"
   s.summary      = "Utility class to convert an NSString containing markdown into an NSAttributedString"
   s.homepage     = "https://github.com/lemurs/NSAttributedStringMarkdownParser"
