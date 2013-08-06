@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/lemurs/NSAttributedStringMarkdownParser"
   s.license      = { :type => 'Apache', :file => 'LICENSE' }
   s.author       = { "lemurs" => "info@le.mu.rs" }
-  s.authors      = { "lemurs" => "info@le.mu.rs", "myell0w" => "", "jverkoey" => ""}
+  s.authors      = { "lemurs" => "info@le.mu.rs" }
   s.source       = { :git => "https://github.com/lemurs/NSAttributedStringMarkdownParser.git", :tag => "v1.0.0" }
   s.ios.deployment_target = '7.0'
   s.source_files = 'src/*'
