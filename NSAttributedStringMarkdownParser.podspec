@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'Apache', :file => 'LICENSE' }
   s.author       = { "lemurs" => "info@le.mu.rs" }
   s.authors      = { "lemurs" => "info@le.mu.rs", "myell0w" => "", "jverkoey" => "verkoey@gmail.com" }
-  s.source       = { :git => "https://github.com/lemurs/NSAttributedStringMarkdownParser.git", :tag => "v1.0.0" }
+  s.source       = { :git => "https://github.com/lemurs/NSAttributedStringMarkdownParser.git", :branch => "master" }
   s.ios.deployment_target = '7.0'
   s.source_files = 'src/*'
-  s.dependency   = 'fmemopen', :path => '../fmemopen'
+  s.dependency   'fmemopen', :git => 'https://github.com/lemurs/fmemopen.git'
   s.requires_arc = true
 end
